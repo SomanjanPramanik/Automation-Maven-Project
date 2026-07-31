@@ -184,8 +184,6 @@ public class SeleniumAssignment2 {
 		
 		submit.executeScript("arguments[0].click();", submitBtn);
 		
-		
-		
 		               
 //		        18. Close browser window
 		 
