@@ -13,10 +13,10 @@ public class SingletonWithOverride {
 	 * A main method that gets the instance twice and proves both references are the same object using ==
 	 */
 	private static SingletonWithOverride instance;
-	private static int count = 0;
+	//private static int count = 0;
 	private SingletonWithOverride(){
 		System.out.println("Connection established");
-		count++;
+		//count++;
 	}
 	//I did some modification
 	public static SingletonWithOverride getInstance() {
@@ -32,7 +32,7 @@ public class SingletonWithOverride {
 				 choice.close(); 
 				 switch(userChoice) {
 				 case("yes"):
-					 count--;
+					 //count--;
 				     System.out.print("New ");
 				     instance = new SingletonWithOverride();
 					 return instance;
