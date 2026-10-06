@@ -1,6 +1,4 @@
 package com.creatio.crm.language.basics;
-import java.util.ArrayList;
-import java.util.List;
 
 public class AssignmentBharathBestTimeToBuyStock {
 /*

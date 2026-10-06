@@ -42,10 +42,13 @@ public class SeleniumAssignment2 {
 			System.out.println("Not valid Driver");
 			break;
 		}
+		if(driver != null) {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get(appUrl);
+		}
 		return driver;
+		
 	}
 	
 	public static void main(String[] args) throws InterruptedException, AWTException {
